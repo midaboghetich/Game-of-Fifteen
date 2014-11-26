@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB9D64EC1A269A61000F7010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9D64EB1A269A61000F7010 /* AppDelegate.swift */; };
+		EB9D64EE1A269A61000F7010 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9D64ED1A269A61000F7010 /* ViewController.swift */; };
+		EB9D64F11A269A61000F7010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB9D64EF1A269A61000F7010 /* Main.storyboard */; };
+		EB9D64F31A269A61000F7010 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB9D64F21A269A61000F7010 /* Images.xcassets */; };
+		EB9D64F61A269A61000F7010 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB9D64F41A269A61000F7010 /* LaunchScreen.xib */; };
+		EB9D65021A269A61000F7010 /* Game_of_FifteenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9D65011A269A61000F7010 /* Game_of_FifteenTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB9D64FC1A269A61000F7010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB9D64DE1A269A61000F7010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB9D64E51A269A61000F7010;
+			remoteInfo = "Game of Fifteen";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB9D64E61A269A61000F7010 /* Game of Fifteen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game of Fifteen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9D64EA1A269A61000F7010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB9D64EB1A269A61000F7010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB9D64ED1A269A61000F7010 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB9D64F01A269A61000F7010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB9D64F21A269A61000F7010 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB9D64F51A269A61000F7010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EB9D64FB1A269A61000F7010 /* Game of FifteenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Game of FifteenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9D65001A269A61000F7010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB9D65011A269A61000F7010 /* Game_of_FifteenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_of_FifteenTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB9D64E31A269A61000F7010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9D64F81A269A61000F7010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB9D64DD1A269A61000F7010 = {
+			isa = PBXGroup;
+			children = (
+				EB9D64E81A269A61000F7010 /* Game of Fifteen */,
+				EB9D64FE1A269A61000F7010 /* Game of FifteenTests */,
+				EB9D64E71A269A61000F7010 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB9D64E71A269A61000F7010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB9D64E61A269A61000F7010 /* Game of Fifteen.app */,
+				EB9D64FB1A269A61000F7010 /* Game of FifteenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB9D64E81A269A61000F7010 /* Game of Fifteen */ = {
+			isa = PBXGroup;
+			children = (
+				EB9D64EB1A269A61000F7010 /* AppDelegate.swift */,
+				EB9D64ED1A269A61000F7010 /* ViewController.swift */,
+				EB9D64EF1A269A61000F7010 /* Main.storyboard */,
+				EB9D64F21A269A61000F7010 /* Images.xcassets */,
+				EB9D64F41A269A61000F7010 /* LaunchScreen.xib */,
+				EB9D64E91A269A61000F7010 /* Supporting Files */,
+			);
+			path = "Game of Fifteen";
+			sourceTree = "<group>";
+		};
+		EB9D64E91A269A61000F7010 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB9D64EA1A269A61000F7010 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB9D64FE1A269A61000F7010 /* Game of FifteenTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB9D65011A269A61000F7010 /* Game_of_FifteenTests.swift */,
+				EB9D64FF1A269A61000F7010 /* Supporting Files */,
+			);
+			path = "Game of FifteenTests";
+			sourceTree = "<group>";
+		};
+		EB9D64FF1A269A61000F7010 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB9D65001A269A61000F7010 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB9D64E51A269A61000F7010 /* Game of Fifteen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9D65051A269A61000F7010 /* Build configuration list for PBXNativeTarget "Game of Fifteen" */;
+			buildPhases = (
+				EB9D64E21A269A61000F7010 /* Sources */,
+				EB9D64E31A269A61000F7010 /* Frameworks */,
+				EB9D64E41A269A61000F7010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Game of Fifteen";
+			productName = "Game of Fifteen";
+			productReference = EB9D64E61A269A61000F7010 /* Game of Fifteen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB9D64FA1A269A61000F7010 /* Game of FifteenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9D65081A269A61000F7010 /* Build configuration list for PBXNativeTarget "Game of FifteenTests" */;
+			buildPhases = (
+				EB9D64F71A269A61000F7010 /* Sources */,
+				EB9D64F81A269A61000F7010 /* Frameworks */,
+				EB9D64F91A269A61000F7010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB9D64FD1A269A61000F7010 /* PBXTargetDependency */,
+			);
+			name = "Game of FifteenTests";
+			productName = "Game of FifteenTests";
+			productReference = EB9D64FB1A269A61000F7010 /* Game of FifteenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB9D64DE1A269A61000F7010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Mida Boghetich";
+				TargetAttributes = {
+					EB9D64E51A269A61000F7010 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					EB9D64FA1A269A61000F7010 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = EB9D64E51A269A61000F7010;
+					};
+				};
+			};
+			buildConfigurationList = EB9D64E11A269A61000F7010 /* Build configuration list for PBXProject "Game of Fifteen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB9D64DD1A269A61000F7010;
+			productRefGroup = EB9D64E71A269A61000F7010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB9D64E51A269A61000F7010 /* Game of Fifteen */,
+				EB9D64FA1A269A61000F7010 /* Game of FifteenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB9D64E41A269A61000F7010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9D64F11A269A61000F7010 /* Main.storyboard in Resources */,
+				EB9D64F61A269A61000F7010 /* LaunchScreen.xib in Resources */,
+				EB9D64F31A269A61000F7010 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9D64F91A269A61000F7010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB9D64E21A269A61000F7010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9D64EE1A269A61000F7010 /* ViewController.swift in Sources */,
+				EB9D64EC1A269A61000F7010 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9D64F71A269A61000F7010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9D65021A269A61000F7010 /* Game_of_FifteenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB9D64FD1A269A61000F7010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB9D64E51A269A61000F7010 /* Game of Fifteen */;
+			targetProxy = EB9D64FC1A269A61000F7010 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB9D64EF1A269A61000F7010 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB9D64F01A269A61000F7010 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB9D64F41A269A61000F7010 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB9D64F51A269A61000F7010 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB9D65031A269A61000F7010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB9D65041A269A61000F7010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB9D65061A269A61000F7010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Game of Fifteen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB9D65071A269A61000F7010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Game of Fifteen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB9D65091A269A61000F7010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Game of FifteenTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Game of Fifteen.app/Game of Fifteen";
+			};
+			name = Debug;
+		};
+		EB9D650A1A269A61000F7010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Game of FifteenTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Game of Fifteen.app/Game of Fifteen";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB9D64E11A269A61000F7010 /* Build configuration list for PBXProject "Game of Fifteen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9D65031A269A61000F7010 /* Debug */,
+				EB9D65041A269A61000F7010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9D65051A269A61000F7010 /* Build configuration list for PBXNativeTarget "Game of Fifteen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9D65061A269A61000F7010 /* Debug */,
+				EB9D65071A269A61000F7010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB9D65081A269A61000F7010 /* Build configuration list for PBXNativeTarget "Game of FifteenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9D65091A269A61000F7010 /* Debug */,
+				EB9D650A1A269A61000F7010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB9D64DE1A269A61000F7010 /* Project object */;
+}
